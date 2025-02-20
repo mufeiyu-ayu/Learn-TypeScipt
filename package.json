@@ -1,0 +1,12 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cmt":"git cz"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
