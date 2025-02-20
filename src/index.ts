@@ -1,1 +1,3 @@
-console.log(1)
+const res = require('./type')
+
+console.log(res)

@@ -5,8 +5,10 @@
     "rootDir": ".",
     // 模块化模式
     "module": "ESNext",
+    "resolveJsonModule": true,
     // 严格类型检测
     "strict": true,
+    "noImplicitAny": true,
     // 根路径
     // 编译后输出的目录
     "outDir": "./dist",
