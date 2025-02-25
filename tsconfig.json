@@ -4,8 +4,7 @@
     "target": "ESNext",
     "rootDir": ".",
     // 模块化模式
-    "module": "ESNext",
-    "resolveJsonModule": true,
+    "module": "CommonJS",
     // 严格类型检测
     "strict": true,
     "noImplicitAny": true,
