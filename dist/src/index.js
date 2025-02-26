@@ -1,4 +1,4 @@
 "use strict";
-let foo = 'foo';
-foo = 'a';
-console.log(foo);
+// require('./type')
+require('./1');
+// console.log(res)

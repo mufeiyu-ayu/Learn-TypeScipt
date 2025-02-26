@@ -2,17 +2,21 @@
   "compilerOptions": {
     // 指定编译后的 js 版本
     "target": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "rootDir": ".",
     // 模块化模式
     "module": "CommonJS",
+    "types": ["node"],
     // 严格类型检测
     "strict": true,
     "noImplicitAny": true,
     // 根路径
     // 编译后输出的目录
+    "declaration": true, // 打包生成.d.ts文件
     "outDir": "./dist",
     // 允许使用 import 导入 CommonJS 模块
     "esModuleInterop": true,
+
     // 强制文件名大小写一致
     "forceConsistentCasingInFileNames": true,
     // 跳过对声明文件（.d.ts）的类型检查

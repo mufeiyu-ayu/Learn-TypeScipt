@@ -5,6 +5,7 @@ export default antfu({
   rules: {
     'no-console': 'off',
     'ts/no-require-imports': 'off',
-    'ts/no-explicit-any': 'error',
+    'ts/no-explicit-any': 'off',
+    'prefer-const': 'off',
   },
 })

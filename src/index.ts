@@ -1,3 +1,4 @@
-const res = require('./type')
+// require('./type')
+require('./MayTypes')
 
-console.log(res)
+// console.log(res)
